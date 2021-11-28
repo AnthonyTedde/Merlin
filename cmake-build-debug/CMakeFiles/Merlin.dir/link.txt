@@ -1,0 +1,2 @@
+/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-ar qc libMerlin.a CMakeFiles/Merlin.dir/library.cpp.o
+/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-ranlib libMerlin.a
