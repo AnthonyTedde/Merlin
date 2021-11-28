@@ -142,32 +142,45 @@ Merlin/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/build
 .PHONY : Merlin/fast
 
-library.o: library.cpp.o
+#=============================================================================
+# Target rules for targets named BoostTests_run
 
-.PHONY : library.o
+# Build rule for target.
+BoostTests_run: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BoostTests_run
+.PHONY : BoostTests_run
+
+# fast build rule for target.
+BoostTests_run/fast:
+	$(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/build
+.PHONY : BoostTests_run/fast
+
+src/LinearModels/lm.o: src/LinearModels/lm.cpp.o
+
+.PHONY : src/LinearModels/lm.o
 
 # target to build an object file
-library.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/library.cpp.o
-.PHONY : library.cpp.o
+src/LinearModels/lm.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o
+.PHONY : src/LinearModels/lm.cpp.o
 
-library.i: library.cpp.i
+src/LinearModels/lm.i: src/LinearModels/lm.cpp.i
 
-.PHONY : library.i
+.PHONY : src/LinearModels/lm.i
 
 # target to preprocess a source file
-library.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/library.cpp.i
-.PHONY : library.cpp.i
+src/LinearModels/lm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.i
+.PHONY : src/LinearModels/lm.cpp.i
 
-library.s: library.cpp.s
+src/LinearModels/lm.s: src/LinearModels/lm.cpp.s
 
-.PHONY : library.s
+.PHONY : src/LinearModels/lm.s
 
 # target to generate assembly for a file
-library.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/library.cpp.s
-.PHONY : library.cpp.s
+src/LinearModels/lm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.s
+.PHONY : src/LinearModels/lm.cpp.s
 
 # Help Target
 help:
@@ -177,10 +190,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... BoostTests_run"
 	@echo "... Merlin"
-	@echo "... library.o"
-	@echo "... library.i"
-	@echo "... library.s"
+	@echo "... src/LinearModels/lm.o"
+	@echo "... src/LinearModels/lm.i"
+	@echo "... src/LinearModels/lm.s"
 .PHONY : help
 
 

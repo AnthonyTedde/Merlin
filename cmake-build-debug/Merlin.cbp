@@ -5,7 +5,7 @@
 		<Option title="Merlin"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\BoostTests\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\linuxbrew\;CMake Files\..\..\..\linuxbrew\.linuxbrew\;CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\;CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\;CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\Boost-1.76.0\;CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_headers-1.76.0\;CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_unit_test_framework-1.76.0\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/ATE/CLionProjects/Merlin/cmake-build-debug"/>
@@ -44,6 +44,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/opt/Eigen_3.4"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/x86_64-conda-linux-gnu"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/backward"/>
@@ -66,6 +67,7 @@
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/opt/Eigen_3.4"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/x86_64-conda-linux-gnu"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/backward"/>
@@ -81,15 +83,105 @@
 					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="BoostTests_run">
+				<Option output="/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/BoostTests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/Eigen_3.4"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/include"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/x86_64-conda-linux-gnu"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/backward"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/include"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/include-fixed"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include"/>
+					<Add directory="/home/ATE/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/Makefile&quot;  VERBOSE=1 BoostTests_run"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BoostTests_run/fast">
+				<Option output="/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/BoostTests_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/opt/Eigen_3.4"/>
+					<Add directory="/home/linuxbrew/.linuxbrew/include"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/x86_64-conda-linux-gnu"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/backward"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/include"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/include-fixed"/>
+					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include"/>
+					<Add directory="/home/ATE/miniconda3/bin/../x86_64-conda-linux-gnu/sysroot/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/Makefile&quot;  VERBOSE=1 BoostTests_run/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/home/ATE/CLionProjects/Merlin/library.cpp">
+		<Unit filename="/home/ATE/CLionProjects/Merlin/BoostTests/main.cpp">
+			<Option target="BoostTests_run"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/BoostTests/test_lm.cpp">
+			<Option target="BoostTests_run"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/src/LinearModels/lm.cpp">
 			<Option target="Merlin"/>
 		</Unit>
-		<Unit filename="/home/ATE/CLionProjects/Merlin/library.h">
+		<Unit filename="/home/ATE/CLionProjects/Merlin/src/LinearModels/lm.h">
 			<Option target="Merlin"/>
 		</Unit>
 		<Unit filename="/home/ATE/CLionProjects/Merlin/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/BoostTests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\BoostTests\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/BoostDetectToolset-1.76.0.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/Boost-1.76.0/BoostConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/Boost-1.76.0/BoostConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\Boost-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/boost_headers-1.76.0/boost_headers-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/boost_headers-1.76.0/boost_headers-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_headers-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/boost_unit_test_framework-1.76.0/boost_unit_test_framework-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_unit_test_framework-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/boost_unit_test_framework-1.76.0/boost_unit_test_framework-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_unit_test_framework-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/boost_unit_test_framework-1.76.0/libboost_unit_test_framework-variant-mt-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_unit_test_framework-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/boost_unit_test_framework-1.76.0/libboost_unit_test_framework-variant-mt-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_unit_test_framework-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/boost_unit_test_framework-1.76.0/libboost_unit_test_framework-variant-shared.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_unit_test_framework-1.76.0\"/>
+		</Unit>
+		<Unit filename="/home/ATE/CLionProjects/Merlin/../../../linuxbrew/.linuxbrew/lib/cmake/boost_unit_test_framework-1.76.0/libboost_unit_test_framework-variant-static.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\linuxbrew\.linuxbrew\lib\cmake\boost_unit_test_framework-1.76.0\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

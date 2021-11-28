@@ -1,3 +1,6 @@
 /home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 /home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles/Merlin.dir
+/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/CMakeFiles/rebuild_cache.dir
+/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/CMakeFiles/edit_cache.dir
+/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/CMakeFiles/BoostTests_run.dir

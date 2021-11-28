@@ -4,7 +4,7 @@
 # compile CXX with /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/opt/Eigen_3.4
 
-CXX_FLAGS = -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ATE/miniconda3/include -g -std=gnu++2a
+CXX_FLAGS = -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/ATE/miniconda3/include -g -std=gnu++14
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Merlin.dir/library.cpp.o"
+  "CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o"
   "libMerlin.a"
   "libMerlin.pdb"
 )
