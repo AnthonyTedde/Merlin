@@ -155,32 +155,32 @@ BoostTests_run/fast:
 	$(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/build
 .PHONY : BoostTests_run/fast
 
-src/LinearModels/lm.o: src/LinearModels/lm.cpp.o
+src/LinearModels/LinearModel.o: src/LinearModels/LinearModel.cpp.o
 
-.PHONY : src/LinearModels/lm.o
+.PHONY : src/LinearModels/LinearModel.o
 
 # target to build an object file
-src/LinearModels/lm.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o
-.PHONY : src/LinearModels/lm.cpp.o
+src/LinearModels/LinearModel.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.o
+.PHONY : src/LinearModels/LinearModel.cpp.o
 
-src/LinearModels/lm.i: src/LinearModels/lm.cpp.i
+src/LinearModels/LinearModel.i: src/LinearModels/LinearModel.cpp.i
 
-.PHONY : src/LinearModels/lm.i
+.PHONY : src/LinearModels/LinearModel.i
 
 # target to preprocess a source file
-src/LinearModels/lm.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.i
-.PHONY : src/LinearModels/lm.cpp.i
+src/LinearModels/LinearModel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.i
+.PHONY : src/LinearModels/LinearModel.cpp.i
 
-src/LinearModels/lm.s: src/LinearModels/lm.cpp.s
+src/LinearModels/LinearModel.s: src/LinearModels/LinearModel.cpp.s
 
-.PHONY : src/LinearModels/lm.s
+.PHONY : src/LinearModels/LinearModel.s
 
 # target to generate assembly for a file
-src/LinearModels/lm.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.s
-.PHONY : src/LinearModels/lm.cpp.s
+src/LinearModels/LinearModel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Merlin.dir/build.make CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.s
+.PHONY : src/LinearModels/LinearModel.cpp.s
 
 # Help Target
 help:
@@ -192,9 +192,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... BoostTests_run"
 	@echo "... Merlin"
-	@echo "... src/LinearModels/lm.o"
-	@echo "... src/LinearModels/lm.i"
-	@echo "... src/LinearModels/lm.s"
+	@echo "... src/LinearModels/LinearModel.o"
+	@echo "... src/LinearModels/LinearModel.i"
+	@echo "... src/LinearModels/LinearModel.s"
 .PHONY : help
 
 

@@ -1,2 +1,2 @@
-/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-ar qc libMerlin.a CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o
+/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-ar qc libMerlin.a CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.o
 /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-ranlib libMerlin.a

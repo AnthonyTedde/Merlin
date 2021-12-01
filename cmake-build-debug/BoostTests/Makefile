@@ -144,59 +144,32 @@ BoostTests_run/fast:
 	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/build
 .PHONY : BoostTests_run/fast
 
-main.o: main.cpp.o
+test_LinearModel.o: test_LinearModel.cpp.o
 
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-test_lm.o: test_lm.cpp.o
-
-.PHONY : test_lm.o
+.PHONY : test_LinearModel.o
 
 # target to build an object file
-test_lm.cpp.o:
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.o
-.PHONY : test_lm.cpp.o
+test_LinearModel.cpp.o:
+	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.o
+.PHONY : test_LinearModel.cpp.o
 
-test_lm.i: test_lm.cpp.i
+test_LinearModel.i: test_LinearModel.cpp.i
 
-.PHONY : test_lm.i
+.PHONY : test_LinearModel.i
 
 # target to preprocess a source file
-test_lm.cpp.i:
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.i
-.PHONY : test_lm.cpp.i
+test_LinearModel.cpp.i:
+	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.i
+.PHONY : test_LinearModel.cpp.i
 
-test_lm.s: test_lm.cpp.s
+test_LinearModel.s: test_LinearModel.cpp.s
 
-.PHONY : test_lm.s
+.PHONY : test_LinearModel.s
 
 # target to generate assembly for a file
-test_lm.cpp.s:
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.s
-.PHONY : test_lm.cpp.s
+test_LinearModel.cpp.s:
+	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug && $(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.s
+.PHONY : test_LinearModel.cpp.s
 
 # Help Target
 help:
@@ -207,12 +180,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BoostTests_run"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... test_lm.o"
-	@echo "... test_lm.i"
-	@echo "... test_lm.s"
+	@echo "... test_LinearModel.o"
+	@echo "... test_LinearModel.i"
+	@echo "... test_LinearModel.s"
 .PHONY : help
 
 

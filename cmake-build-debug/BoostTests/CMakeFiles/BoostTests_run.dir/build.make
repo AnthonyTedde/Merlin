@@ -76,45 +76,30 @@ include BoostTests/CMakeFiles/BoostTests_run.dir/progress.make
 # Include the compile flags for this target's objects.
 include BoostTests/CMakeFiles/BoostTests_run.dir/flags.make
 
-BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.o: BoostTests/CMakeFiles/BoostTests_run.dir/flags.make
-BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.o: ../BoostTests/test_lm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.o"
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTests_run.dir/test_lm.cpp.o -c /home/ATE/CLionProjects/Merlin/BoostTests/test_lm.cpp
+BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.o: BoostTests/CMakeFiles/BoostTests_run.dir/flags.make
+BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.o: ../BoostTests/test_LinearModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.o"
+	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.o -c /home/ATE/CLionProjects/Merlin/BoostTests/test_LinearModel.cpp
 
-BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoostTests_run.dir/test_lm.cpp.i"
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ATE/CLionProjects/Merlin/BoostTests/test_lm.cpp > CMakeFiles/BoostTests_run.dir/test_lm.cpp.i
+BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.i"
+	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ATE/CLionProjects/Merlin/BoostTests/test_LinearModel.cpp > CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.i
 
-BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoostTests_run.dir/test_lm.cpp.s"
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ATE/CLionProjects/Merlin/BoostTests/test_lm.cpp -o CMakeFiles/BoostTests_run.dir/test_lm.cpp.s
-
-BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.o: BoostTests/CMakeFiles/BoostTests_run.dir/flags.make
-BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.o: ../BoostTests/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.o"
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/BoostTests_run.dir/main.cpp.o -c /home/ATE/CLionProjects/Merlin/BoostTests/main.cpp
-
-BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BoostTests_run.dir/main.cpp.i"
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ATE/CLionProjects/Merlin/BoostTests/main.cpp > CMakeFiles/BoostTests_run.dir/main.cpp.i
-
-BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoostTests_run.dir/main.cpp.s"
-	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ATE/CLionProjects/Merlin/BoostTests/main.cpp -o CMakeFiles/BoostTests_run.dir/main.cpp.s
+BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.s"
+	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && /home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ATE/CLionProjects/Merlin/BoostTests/test_LinearModel.cpp -o CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.s
 
 # Object files for target BoostTests_run
 BoostTests_run_OBJECTS = \
-"CMakeFiles/BoostTests_run.dir/test_lm.cpp.o" \
-"CMakeFiles/BoostTests_run.dir/main.cpp.o"
+"CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.o"
 
 # External object files for target BoostTests_run
 BoostTests_run_EXTERNAL_OBJECTS =
 
-BoostTests/BoostTests_run: BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.o
-BoostTests/BoostTests_run: BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.o
+BoostTests/BoostTests_run: BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.o
 BoostTests/BoostTests_run: BoostTests/CMakeFiles/BoostTests_run.dir/build.make
 BoostTests/BoostTests_run: BoostTests/CMakeFiles/BoostTests_run.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable BoostTests_run"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BoostTests_run"
 	cd /home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BoostTests_run.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

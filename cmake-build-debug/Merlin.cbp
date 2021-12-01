@@ -45,6 +45,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/opt/Eigen_3.4"/>
+					<Add directory="/home/ATE/CLionProjects/Merlin"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/x86_64-conda-linux-gnu"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/backward"/>
@@ -68,6 +69,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/opt/Eigen_3.4"/>
+					<Add directory="/home/ATE/CLionProjects/Merlin"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/x86_64-conda-linux-gnu"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/backward"/>
@@ -92,6 +94,7 @@
 				<Compiler>
 					<Add directory="/opt/Eigen_3.4"/>
 					<Add directory="/home/linuxbrew/.linuxbrew/include"/>
+					<Add directory="/home/ATE/CLionProjects/Merlin"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/x86_64-conda-linux-gnu"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/backward"/>
@@ -116,6 +119,7 @@
 				<Compiler>
 					<Add directory="/opt/Eigen_3.4"/>
 					<Add directory="/home/linuxbrew/.linuxbrew/include"/>
+					<Add directory="/home/ATE/CLionProjects/Merlin"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/x86_64-conda-linux-gnu"/>
 					<Add directory="/home/ATE/miniconda3/bin/../lib/gcc/x86_64-conda-linux-gnu/9.3.0/../../../../x86_64-conda-linux-gnu/include/c++/9.3.0/backward"/>
@@ -132,16 +136,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ATE/CLionProjects/Merlin/BoostTests/main.cpp">
+		<Unit filename="/home/ATE/CLionProjects/Merlin/BoostTests/main.h">
 			<Option target="BoostTests_run"/>
 		</Unit>
-		<Unit filename="/home/ATE/CLionProjects/Merlin/BoostTests/test_lm.cpp">
+		<Unit filename="/home/ATE/CLionProjects/Merlin/BoostTests/test_LinearModel.cpp">
 			<Option target="BoostTests_run"/>
 		</Unit>
-		<Unit filename="/home/ATE/CLionProjects/Merlin/src/LinearModels/lm.cpp">
+		<Unit filename="/home/ATE/CLionProjects/Merlin/src/LinearModels/LinearModel.cpp">
 			<Option target="Merlin"/>
 		</Unit>
-		<Unit filename="/home/ATE/CLionProjects/Merlin/src/LinearModels/lm.h">
+		<Unit filename="/home/ATE/CLionProjects/Merlin/src/LinearModels/LinearModel.h">
 			<Option target="Merlin"/>
 		</Unit>
 		<Unit filename="/home/ATE/CLionProjects/Merlin/CMakeLists.txt">

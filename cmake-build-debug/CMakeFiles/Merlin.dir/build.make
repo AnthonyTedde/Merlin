@@ -76,27 +76,27 @@ include CMakeFiles/Merlin.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Merlin.dir/flags.make
 
-CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o: CMakeFiles/Merlin.dir/flags.make
-CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o: ../src/LinearModels/lm.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o"
-	/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o -c /home/ATE/CLionProjects/Merlin/src/LinearModels/lm.cpp
+CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.o: CMakeFiles/Merlin.dir/flags.make
+CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.o: ../src/LinearModels/LinearModel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.o"
+	/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.o -c /home/ATE/CLionProjects/Merlin/src/LinearModels/LinearModel.cpp
 
-CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.i"
-	/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ATE/CLionProjects/Merlin/src/LinearModels/lm.cpp > CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.i
+CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.i"
+	/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ATE/CLionProjects/Merlin/src/LinearModels/LinearModel.cpp > CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.i
 
-CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.s"
-	/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ATE/CLionProjects/Merlin/src/LinearModels/lm.cpp -o CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.s
+CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.s"
+	/home/ATE/miniconda3/bin/x86_64-conda-linux-gnu-c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ATE/CLionProjects/Merlin/src/LinearModels/LinearModel.cpp -o CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.s
 
 # Object files for target Merlin
 Merlin_OBJECTS = \
-"CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o"
+"CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.o"
 
 # External object files for target Merlin
 Merlin_EXTERNAL_OBJECTS =
 
-libMerlin.a: CMakeFiles/Merlin.dir/src/LinearModels/lm.cpp.o
+libMerlin.a: CMakeFiles/Merlin.dir/src/LinearModels/LinearModel.cpp.o
 libMerlin.a: CMakeFiles/Merlin.dir/build.make
 libMerlin.a: CMakeFiles/Merlin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libMerlin.a"

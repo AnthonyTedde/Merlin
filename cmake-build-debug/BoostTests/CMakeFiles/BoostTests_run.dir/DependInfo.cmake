@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ATE/CLionProjects/Merlin/BoostTests/main.cpp" "/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/CMakeFiles/BoostTests_run.dir/main.cpp.o"
-  "/home/ATE/CLionProjects/Merlin/BoostTests/test_lm.cpp" "/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/CMakeFiles/BoostTests_run.dir/test_lm.cpp.o"
+  "/home/ATE/CLionProjects/Merlin/BoostTests/test_LinearModel.cpp" "/home/ATE/CLionProjects/Merlin/cmake-build-debug/BoostTests/CMakeFiles/BoostTests_run.dir/test_LinearModel.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -13,6 +12,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/opt/Eigen_3.4"
   "/home/linuxbrew/.linuxbrew/include"
+  "../"
   )
 
 # Targets to which this target links.
