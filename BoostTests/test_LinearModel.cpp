@@ -12,14 +12,10 @@
 using namespace Eigen;
 using namespace boost::unit_test;
 
-int global = 5;
 
-BOOST_AUTO_TEST_CASE(test){
-    //MatrixXd data = MatrixXd::Random(3, 3);
-    MatrixXd data ;
+BOOST_AUTO_TEST_CASE(test_the_constructor){
+    MatrixXd data = MatrixXd::Random(3, 3);
     LinearModel lm = LinearModel(&data);
-    int a1 = 100;
-    //   std::vector<int> a{1, 2};
-    //   std::vector<int> b{1, 2};
-    BOOST_TEST(true);
+    bool check = lm.get_data() == data;
+    BOOST_TEST(check);
 }

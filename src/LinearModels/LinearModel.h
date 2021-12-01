@@ -8,6 +8,7 @@ private:
     MatrixXd data;
 public:
     LinearModel(MatrixXd*);
+    MatrixXd get_data(){return this->data;}
     //void sum_of_square_dev();
 };
 
