@@ -1,5 +1,6 @@
 /home/ATE/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/ATE/CLionProjects/Merlin
 -- Configuring done
 WARNING: Target "Merlin" requests linking to directory "/opt/Eigen_3.4".  Targets may link only to libraries.  CMake is dropping the item.
+WARNING: Target "BoostTests_run" requests linking to directory "/opt/Eigen_3.4".  Targets may link only to libraries.  CMake is dropping the item.
 -- Generating done
 -- Build files have been written to: /home/ATE/CLionProjects/Merlin/cmake-build-debug

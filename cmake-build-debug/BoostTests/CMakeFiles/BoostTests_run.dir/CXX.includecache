@@ -9,17 +9,25 @@
 ../src/LinearModels/LinearModel.h
 Eigen/Dense
 -
+vector
+-
+string
+-
 
 /home/ATE/CLionProjects/Merlin/BoostTests/main.h
 
 /home/ATE/CLionProjects/Merlin/BoostTests/test_LinearModel.cpp
-src/LinearModels/LinearModel.h
--
 main.h
 /home/ATE/CLionProjects/Merlin/BoostTests/main.h
 boost/test/included/unit_test.hpp
 -
+vector
+-
+string
+-
 Eigen/Dense
+-
+src/LinearModels/LinearModel.h
 -
 
 /home/linuxbrew/.linuxbrew/include/boost/algorithm/cxx11/all_of.hpp

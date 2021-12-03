@@ -137,7 +137,7 @@ CMakeFiles/Merlin.dir/clean:
 # Target rules for target BoostTests/CMakeFiles/BoostTests_run.dir
 
 # All Build rule for target.
-BoostTests/CMakeFiles/BoostTests_run.dir/all:
+BoostTests/CMakeFiles/BoostTests_run.dir/all: CMakeFiles/Merlin.dir/all
 	$(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/depend
 	$(MAKE) $(MAKESILENT) -f BoostTests/CMakeFiles/BoostTests_run.dir/build.make BoostTests/CMakeFiles/BoostTests_run.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BoostTests_run"
@@ -145,7 +145,7 @@ BoostTests/CMakeFiles/BoostTests_run.dir/all:
 
 # Build rule for subdir invocation for target.
 BoostTests/CMakeFiles/BoostTests_run.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BoostTests/CMakeFiles/BoostTests_run.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ATE/CLionProjects/Merlin/cmake-build-debug/CMakeFiles 0
 .PHONY : BoostTests/CMakeFiles/BoostTests_run.dir/rule
